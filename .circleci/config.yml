@@ -15,12 +15,7 @@ jobs:
       - checkout
       - run:
           name: Install Front-End Dependencies
-          command: |
-            echo "NODE --version" 
-            echo $(node --version)
-            echo "NPM --version" 
-            echo $(npm --version)
-            npm run frontend:install
+          command: npm run frontend:install
       - run:
           name: Install API Dependencies
           command: npm run api:install
