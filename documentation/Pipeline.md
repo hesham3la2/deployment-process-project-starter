@@ -4,5 +4,6 @@
 2- cicd branch is linked to circle ci which is triggered and start project rebuild automaticelly
 
 ![pipeline diagram](../screenshots/pipeline-diagram.png)
+![circle ci env](../screenshots/circleci-env.png)
 ![circle ci account](../screenshots/pipeline1.png)
 ![circle ci pipeline](../screenshots/pipeline2.png)
